@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Cake';
+    src: url('font/CreamCake.otf');
+    font-weight: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(175, 57, 156, 0.74);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   /* overflow: hidden;*/
+     max-width: 800px;
+     min-width: 400px;
+     margin: auto;
+    
+   
+}
+h1 {
+    text-align: center;
+}
+aside > p {
+    font-variant: small-caps;
+    text-align: center;
+    
+}
+body > p {
+    font-family: 'Cake';
+    font-size: 50px;
+    
+}
+div {
+    position: absolute;
+    bottom: 20px;
+    background:rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    font-size: 18px; ;
+    display: none;
+
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: darksalmon;
+    border: none;
+    text-align: center;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+footer > p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
