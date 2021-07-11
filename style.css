@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgba(175, 57, 156, 0.74);
+    background-color: #9c9d9e67;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     /*display: flex;
     /*flex-direction: column;*/
@@ -21,10 +21,11 @@ body {
      max-width: 800px;
      min-width: 400px;
      margin: auto;
+     padding: 15px;
     
    
 }
-h1 {
+h1, h2 {
     text-align: center;
 }
 aside > p {
@@ -35,6 +36,7 @@ aside > p {
 body > p {
     font-family: 'Cake';
     font-size: 50px;
+    text-align: justify;
     
 }
 div {
@@ -44,6 +46,7 @@ div {
     padding: 10px 10px;
     font-size: 18px; ;
     display: none;
+    align-items: center;
 
 }
 
@@ -51,7 +54,7 @@ input {
     width: 50px;
     padding: 5px;
     font-size: 18px;
-    background-color: darksalmon;
+    background-color: #9c9d9e67;
     border: none;
     text-align: center;
 
